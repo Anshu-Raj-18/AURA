@@ -1,4 +1,4 @@
-# 🎙️ Bhasha Setu (Hackheritage 4.0) — Hindi-to-Santali Speech & Translation Engine
+# AURA - AI for Unified Regional Access
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -6,29 +6,29 @@
 [![Vosk](https://img.shields.io/badge/Vosk-Hindi--ASR-00599C)](https://alphacephei.com/vosk/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**Bhasha Setu** is an AI-powered offline-first speech recognition, multi-tiered translation, and speech synthesis platform. It is engineered to bridge linguistic barriers for migrant teachers, frontline healthcare workers (ASHA/Gram Sevaks), and indigenous tribal communities by translating real-time **Hindi spoken voice** into **Santali text (Ol Chiki & Roman script)** and generating **24kHz Santali speech audio**.
+**AURA** is an AI-powered offline-first speech recognition, multi-tiered translation, and speech synthesis platform. It is engineered to bridge linguistic barriers for migrant teachers, frontline healthcare workers (ASHA/Gram Sevaks), and indigenous tribal communities by translating real-time **Hindi spoken voice** into **Santali, Mundari, Ho text** and generating **24kHz respective speech audio**.
 
 ---
 
 ## 🌟 Key Architectural Features
 
-### 1. 🎙️ Real-Time Offline Hindi Speech Recognition (ASR)
+### 1.  Real-Time Offline Hindi Speech Recognition (ASR)
 - Powered by **Vosk** (`vosk-model-small-hi-0.22`), providing zero-latency push-to-talk speech-to-text directly on local hardware without internet dependency.
 
-### 2. 🧠 3-Tier Multi-Directional Translation Engine
+### 2.  3-Tier Multi-Directional Translation Engine
 - **Tier 1 (Phrase Bank & Exact DB Match):** Matches full sentences against verified educational phrases and a SQLite database (`translations.db`) containing 6,780+ curated entries.
 - **Tier 2 (Grammar & Token Dictionary Mapping):** Word-level mapping for pronouns, verb stems, postpositions, and classroom vocabulary.
 - **Tier 3 (Phonetic Transliteration Fallback):** Employs **Aksharamukha** syllabic mapping to transliterate out-of-vocabulary words and proper nouns, ensuring zero raw Devanagari characters remain in output.
 
-### 3. 🔊 Santali Neural Text-to-Speech (TTS)
+### 3. Santali Neural Text-to-Speech (TTS)
 - Adapts Meta's **MMS-TTS Hindi** VITS architecture (`facebook/mms-tts-hin`) with an Ol Chiki-to-Devanagari phonetic mapping layer to produce clear, expressive 24kHz Santali voice waveforms.
 
-### 4. 📂 Clean & Modular Directory Hygiene
+### 4.  Clean & Modular Directory Hygiene
 - Automated setup script (`download_models.py`) downloads heavy model safetensors while lightweight models remain tracked under Git version control.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 Hackheritage4.0/
@@ -69,7 +69,7 @@ Hackheritage4.0/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 - **Python**: 3.10 or higher
@@ -105,7 +105,7 @@ Hackheritage4.0/
 
 ---
 
-## 🎙️ Running the Pipeline
+##  Running the Pipeline
 
 ### Main Real-Time Voice Pipeline
 Launch the interactive push-to-talk speech translation application:
@@ -121,7 +121,7 @@ python main.py
 
 ---
 
-## 🛠️ CLI Utilities & Testing
+##  CLI Utilities & Testing
 
 ### 1. Standalone Translation CLI
 Translate Hindi text directly to Santali Ol Chiki and Roman pronunciation:
