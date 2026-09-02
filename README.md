@@ -10,7 +10,7 @@
 
 ---
 
-## 🌟 Key Architectural Features
+##  Key Architectural Features
 
 ### 1.  Real-Time Offline Hindi Speech Recognition (ASR)
 - Powered by **Vosk** (`vosk-model-small-hi-0.22`), providing zero-latency push-to-talk speech-to-text directly on local hardware without internet dependency.
