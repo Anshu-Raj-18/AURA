@@ -143,8 +143,3 @@ python -m unittest discover -s src
 
 ---
 
-## 👥 Contributors & Acknowledgments
-Developed for **Smart India Hackathon (SIH)**.
-
-- **Institution**: Sahyadri College of Engineering and Management, Mangaluru
-- **Core Engineering**: Smart India Hackathon Bhasha Setu Team
