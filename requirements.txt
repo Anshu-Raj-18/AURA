@@ -1,0 +1,19 @@
+# Hackheritage4.0 — Core Runtime Dependencies
+
+# Deep Learning & Speech Synthesis (Meta MMS-TTS)
+torch>=2.0.0
+transformers>=4.40.0
+safetensors>=0.4.0
+
+# Speech Recognition (Vosk Hindi ASR)
+vosk>=0.3.45
+
+# Audio I/O & Processing
+sounddevice>=0.4.6
+soundfile>=0.12.1
+scipy>=1.10.0
+numpy>=1.23.0
+
+# Transliteration & Tokenization
+aksharamukha>=2.0
+sentencepiece>=0.1.99
