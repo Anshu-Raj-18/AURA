@@ -29,9 +29,9 @@ SANTALI_TRANSCRIPTS_DIR.mkdir(parents=True, exist_ok=True)
 AUDIO_TRANSLATED_DIR.mkdir(parents=True, exist_ok=True)
 
 # SIH Bhasha Setu Santali Speech Engine Configuration
-ENGINE_NAME = "SIH_Bhasha_Setu_Phonetic_TTS"
+ENGINE_NAME = "AURA - Ai"
 DEFAULT_DESCRIPTION_PROMPT = (
-    "A female speaker delivers a clear, natural, and expressive educational speech in Santali."
+    "A male speaker delivers a clear, natural, and expressive educational speech in Santali."
 )
 
 # Audio Parameters
