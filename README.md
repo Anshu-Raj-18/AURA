@@ -40,8 +40,7 @@ Hackheritage4.0/
 │
 ├── database/
 │   ├── __init__.py
-│   ├── translations.db             # SQLite lexicon database (6,780+ phrase & word entries)
-│   └── datamerge.ipynb             # Dataset curation notebook
+│   ├── translations.db             # SQLite lexicon database (6,780+ phrase & word entries
 │
 ├── src/
 │   ├── __init__.py
@@ -50,8 +49,6 @@ Hackheritage4.0/
 │   ├── translate_hindi_santhali.py # 3-tier Hindi -> Santali translation engine
 │   ├── generate_santali_audio.py   # CLI tool for generating audio files from text/transcripts
 │   ├── hindi_voice_to_text.py      # Standalone push-to-talk Hindi ASR engine
-│   ├── hindi_santhali_text.py      # Transformer sequence model inference utilities
-│   ├── inference.py                # Standalone inference helper functions
 │   └── test_tts.py                 # Unit tests for config & speech synthesis
 │
 ├── models/
@@ -88,8 +85,6 @@ Hackheritage4.0/
    python -m venv venv
    # On Windows PowerShell:
    .\venv\Scripts\Activate.ps1
-   # On Linux/macOS:
-   source venv/bin/activate
    ```
 
 3. **Install Dependencies**:
