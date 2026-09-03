@@ -101,7 +101,7 @@ def main():
             source_description = "Default fallback text ('ᱚᱞ ᱪᱤᱠᱤ')"
 
     print("=" * 60)
-    print("SIH_BHASHA_SETU SANTALI AUDIO GENERATION")
+    print("AURA TTS Voice Generation")
     print("=" * 60)
     print(f"Engine Name        : {config.ENGINE_NAME}")
     print(f"Sample Rate        : {config.SAMPLE_RATE} Hz")

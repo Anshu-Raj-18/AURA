@@ -25,12 +25,12 @@ class TestSantaliTTS(unittest.TestCase):
 
     def test_config_model_settings(self):
         """
-        Validate config file specifies Quipus / AI4Bharat model settings and 24kHz sample rate.
+        Validate config file specifies AURA TTS Voice Generation model settings and 24kHz sample rate.
         """
         self.assertEqual(config.SAMPLE_RATE, 24000)
         self.assertEqual(config.SRC_LANG, "hin_Deva")
         self.assertEqual(config.TGT_LANG, "sat_Olck")
-        self.assertEqual(config.ENGINE_NAME, "SIH_Bhasha_Setu_Phonetic_TTS")
+        self.assertEqual(config.ENGINE_NAME, "AURA - Ai")
 
     def test_santali_speech_synthesis(self):
         """
