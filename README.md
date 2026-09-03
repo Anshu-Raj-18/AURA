@@ -79,8 +79,8 @@ Hackheritage4.0/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Alfanshaikh786/SIH_Bhasha_Setu.git
-   cd Hackheritage4.0
+   git clone https://github.com/Anshu-Raj-18/AURA.git
+   cd AURA
    ```
 
 2. **Create & Activate Virtual Environment**:
